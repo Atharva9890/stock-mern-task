@@ -1,0 +1,9 @@
+.price_span {
+    margin-left: 380px;
+}
+
+@media (max-width: 767px) {
+    .price_span {
+        margin-left: 10px;
+    }
+}
