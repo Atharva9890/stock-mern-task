@@ -155,6 +155,7 @@ function StockList() {
     useEffect(() => {
         fetchStocks();
         setInterval(fetchStocks, 60000);
+        alert('Stock prices will be updated each minute')
     }, []);
 
     const handleChange = (event) => {
@@ -195,9 +196,9 @@ function StockList() {
                 </CustomSelect>
             </div >
             {selectedStock && <div>
-                <Grid container spacing={2} className='stock_desc'>
+                <Grid container spacing={2}>
                     <Grid item xs={12} sm={12} md={12} lg={12}>
-                        <div className='stock_info_left'>
+                        <div className='stock_info'>
                             <BasicCard prop={selectedStock}></BasicCard>
                         </div>
                     </Grid>

@@ -1,7 +1,7 @@
-.stock_info_left {
+.stock_info {
     display: flex;
     min-height: 250px;
-    margin-top: 200px;
+    margin-top: 150px;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
