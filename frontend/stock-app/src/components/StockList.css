@@ -1,0 +1,15 @@
+.stock_info_left {
+    display: flex;
+    min-height: 250px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.stock_info_right {
+    display: flex;
+    min-height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
