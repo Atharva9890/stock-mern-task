@@ -9,7 +9,7 @@ let stocks = [
     { name: 'TXC', Price: 125.50, info: 'TechX Corporation is a leading tech company specializing in software development and cloud computing solutions.' },
     { name: 'GEI', Price: 42.80, info: 'GEI is a pioneer in renewable energy solutions, focusing on solar and wind power projects.' },
     { name: 'GPL', Price: 75.20, info: 'GPL is a pharmaceutical giant known for its research and development of life-saving drugs.' },
-    { name: 'MAN', Price: 240.75, info: 'LAG produces high-end luxury automobiles and is known for its cutting-edge designs.' },
+    { name: 'LAG', Price: 240.75, info: 'LAG produces high-end luxury automobiles and is known for its cutting-edge designs.' },
 ];
 
 function updateStockPrices() {
