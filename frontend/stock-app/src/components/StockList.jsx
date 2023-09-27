@@ -169,7 +169,7 @@ function StockList() {
 
     const fetchStocks = async () => {
         try {
-            const response = await fetch('http://localhost:8001/');
+            const response = await fetch('https://stock-app-mern.onrender.com');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
